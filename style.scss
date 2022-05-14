@@ -1,0 +1,468 @@
+
+/*=========================font family===================================*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Mulish', sans-serif;
+}
+header {
+    background-image:url(./img/header-bg-2.jpg) ;
+    background-size: cover;
+    .menu-navbar {
+      
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: rgba(0, 123, 255, 0.499);
+       
+        
+        .button {
+            button {
+                padding: 10px 20px;
+            border-radius: 30px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            }
+        }
+        .menu1{
+            .nav-item {
+                a {
+                    color: white !important;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    margin-right: 15px;
+                }
+            }
+        }
+       
+    }
+    #first {
+       
+        .mobile-2 {
+         width: 100%;
+         
+        }
+          .box1 {
+              padding: 40px;
+             margin: 200px 0;
+           color: white;
+              h1 {
+                  margin: 15px 0;
+                  padding: 10px;
+              }
+          }
+          .box3 {
+              display: flex;
+          }
+          button {
+              margin: 10px 5px;
+             display: flex;
+              background-color: black;
+              padding: 0 20px;
+              border-radius: 40px;
+              transition: .5s;
+              &:hover {
+                box-shadow: rgb(15, 16, 18) 0px 3px 8px ,
+                rgba(13, 13, 15, 0.856) 0px 3px 18px,
+                rgba(44, 45, 48, 0.836) 0px 3px 28px,
+                rgba(47, 48, 50, 0.801) 0px 3px 38px,
+                rgb(51, 51, 52) 0px 3px 48px,
+                rgb(38, 40, 41) 0px 3px 58px,
+                rgba(39, 39, 41, 0.808) 0px 3px 68px,
+                rgba(51, 52, 54, 0.637) 0px 3px 78px;
+              }
+              i {
+                  display: flex;
+                  margin: 10px 10px;
+                  color: white;
+                  font-size: 28px;
+              }
+              p {
+                  padding: 0 10px;
+                  margin: 0;
+                  color: white;
+                 
+              }
+              .p1 {
+                  font-size: 20px;
+              }
+          }
+      }
+}
+#two {
+    margin: 10px;
+    .Lunatic {
+        text-align: center;
+        margin: 30px;
+    }
+}
+#three {
+    margin: 30px;
+    .box-1 {
+      width: 100%;
+    }
+    .box-3 {
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        .box-2 {
+            h3 {
+                color: red;
+            }
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+}
+#four {
+    margin: 50px ;
+    .box-3 {
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        .box-2 {
+            h3 {
+                color: red;
+            }
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+    .network {
+        width: 100%;
+    }
+   
+}
+#five {
+    margin: 30px;
+    padding: 30px;
+   
+   .Video {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+   }
+    .video {
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        background-image: url(./img/video-img.jpg);
+        width: 800px;
+        height: 500px;
+        background-size: cover;
+    }
+    .icons {
+     color: blueviolet;
+        font-size: 60px;
+      margin: 0 auto;
+    }
+}
+#sevin {
+    margin: 10px;
+    .cool {
+        margin: 20px auto;
+   text-align: center;
+    }
+    .box4 {
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+        width: 100%;
+        height: 160px;
+        padding: 10px 15px;
+        margin: 10px;
+        transition: .5s;
+        &:hover {
+            filter: blur(0);
+            transform: scale(1.1);
+            z-index: 1;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .feature {
+            width: 50%;
+        }
+        p {
+            padding: 5px;
+            
+        }
+    }
+}
+#nine {
+    margin-top: 30px;
+    .cool {
+        margin: 20px auto;
+   text-align: center;
+   transition: .5s;
+    }
+    
+    .box-4 {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+        margin: 20px 10px;
+        transition: .5s;
+        padding: 10px;
+        &:hover {
+            filter: blur(0);
+            transform: scale(1.1);
+            z-index: 1;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .screen {
+            
+        width:100%; 
+       
+        }
+    }
+}
+
+#ten {
+    
+    margin: 20px 10px;
+    .box-5 {
+        margin: 20px auto;
+        text-align: center;
+    }
+    .box-6 {
+       
+        background-image: url(./img/price-bg-2.png);
+        text-align: center;
+        background-repeat: no-repeat;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     padding: 10px;
+     
+    }
+    button {
+        text-align: center;
+        padding: 5px 20px;
+        border-radius: 30px;
+        background-color: white;
+        border: 1px solid blue;
+        transition: .5s;
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: rgb(0, 149, 255);
+        }
+    }
+}
+
+#eleven {
+    .box6 {
+      
+        box-shadow: rgba(65, 64, 64, 0.24) 0px 2px 6px; 
+        .team {
+            width: 50%;
+        } 
+    }
+  .box-7 {
+
+      padding: 30px 20px;
+      box-shadow: rgba(26, 25, 25, 0.286) 0px 3px 8px;  
+      .Ronald {
+         color: rgb(35, 35, 110);
+      }
+  }
+}
+
+#twelve {
+    .and {
+        font-weight: 700;
+    }
+   .box7 {
+    box-shadow: rgba(27, 26, 26, 0.24) 0px 3px 8px; 
+   
+   padding: 20px 10px;
+   margin: 10px 5px;
+ background-color: rgb(246, 237, 237);
+    .twelve {
+        font-style: 25px;
+        font-weight: 700;
+    }
+   }
+}
+#thirteen {
+  
+.box-8 {
+    
+    .download {
+        width: 100%;
+    }
+    .box9 {
+       
+       
+    }
+    .box8 {
+        display: flex;
+   
+     }
+     .box8button {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 5px 30px;
+         color: white;
+         background-color: black;
+         margin: 5px;
+         border-radius: 40px;
+         transition: .5s;
+         margin-top: 15px;
+         p {
+             margin: 0px;
+         }
+         .box8p {
+             font-size: 20px;
+             font-weight: 500;
+             
+         }
+         .iconbox8 {
+             margin: 5px;
+             padding: 5px;
+            
+         }
+         &:hover {
+          box-shadow: rgb(15, 16, 18) 0px 3px 8px ,
+          rgba(13, 13, 15, 0.856) 0px 3px 18px,
+          rgba(44, 45, 48, 0.836) 0px 3px 28px,
+          rgba(47, 48, 50, 0.801) 0px 3px 38px,
+          rgb(51, 51, 52) 0px 3px 48px,
+          rgb(38, 40, 41) 0px 3px 58px,
+          rgba(39, 39, 41, 0.808) 0px 3px 68px,
+          rgba(51, 52, 54, 0.637) 0px 3px 78px;
+        }
+     }
+  
+    }
+}
+
+#fourteen {
+    .map {
+
+        margin: 10px;
+        width: 100%;
+    }
+   
+  
+
+}
+#fifteen {
+   .box-9 {
+       margin: 10px 0;
+       background-color: white;
+       box-shadow: rgba(26, 25, 25, 0.286) 0px 3px 8px;  
+    .box-9p {
+        padding: 10px;
+        margin-top:10px ;
+        font-size: 20px;
+        font-weight: 650;
+    }
+    .blog {
+       
+        width: 100%;
+    }
+   }
+
+}
+
+
+#sixteen {
+    margin: 20px 0;
+    .box-10 {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid rgb(209, 204, 204);
+      
+    }
+    .Messages {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid rgb(209, 204, 204);
+      
+    }
+    .btn {
+        margin: 20px auto;
+        border: 1px solid blueviolet;
+        border-radius: 30px;
+        padding: 10px 25px;
+        color: blueviolet;
+        transition: .5s;
+        &:hover {
+            box-shadow: rgb(224, 144, 214) 0px 3px 8px ,
+            rgba(253, 128, 253, 0.856) 0px 3px 18px,
+            rgb(224, 144, 214) 0px 3px 28px,
+            rgb(209, 126, 198) 0px 3px 38px,
+            rgb(233, 133, 220) 0px 3px 48px,
+            rgb(224, 144, 214) 0px 3px 58px,
+            rgb(226, 118, 211) 0px 3px 68px,
+            rgb(208, 118, 196) 0px 3px 78px;
+   background-color: rgb(202, 32, 205);
+   color: white;
+        }
+    }
+}
+
+
+
+#seventeen {
+    padding: 20px;
+    background-color: rgb(230, 221, 221);
+    p {
+        margin-top: 10px;
+    }
+    .icons-end {
+    
+        i {
+            margin: 10px 5px;
+        padding: 15px;
+        color: white;
+        }
+        .icon1 {
+            background-color: blue;
+            color: white;
+           
+        }
+        .icon2 {
+            background-color: rgb(0, 217, 255);
+            color: white;
+        }
+        .icon3 {
+            background-color: red;
+            
+        }
+        .icon4 {
+            background-color: rgb(165, 42, 50);
+        }
+    }
+    .p-end {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    span {
+       
+        font-weight: 800;
+    }
+    .box-end {
+        margin-top: 10px;
+        #email {
+            width: 80%;
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: 1px solid blueviolet;
+        }
+    }
+}

@@ -1,0 +1,399 @@
+/*=========================font family===================================*/
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+header {
+  background-image: url(./img/header-bg-2.jpg);
+  background-size: cover;
+}
+header .menu-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 123, 255, 0.499);
+}
+header .menu-navbar .button button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+header .menu-navbar .menu1 .nav-item a {
+  color: white !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 15px;
+}
+header #first .mobile-2 {
+  width: 100%;
+}
+header #first .box1 {
+  padding: 40px;
+  margin: 200px 0;
+  color: white;
+}
+header #first .box1 h1 {
+  margin: 15px 0;
+  padding: 10px;
+}
+header #first .box3 {
+  display: flex;
+}
+header #first button {
+  margin: 10px 5px;
+  display: flex;
+  background-color: black;
+  padding: 0 20px;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+header #first button:hover {
+  box-shadow: rgb(15, 16, 18) 0px 3px 8px, 
+  rgba(13, 13, 15, 0.856) 0px 3px 18px,
+   rgba(44, 45, 48, 0.836) 0px 3px 28px, 
+   rgba(47, 48, 50, 0.801) 0px 3px 38px,
+    rgb(51, 51, 52) 0px 3px 48px, 
+    rgb(38, 40, 41) 0px 3px 58px, 
+    rgba(39, 39, 41, 0.808) 0px 3px 68px, 
+    rgba(51, 52, 54, 0.637) 0px 3px 78px;
+}
+header #first button i {
+  display: flex;
+  margin: 10px 10px;
+  color: white;
+  font-size: 28px;
+}
+header #first button p {
+  padding: 0 10px;
+  margin: 0;
+  color: white;
+}
+header #first button .p1 {
+  font-size: 20px;
+}
+
+#two {
+  margin: 10px;
+}
+#two .Lunatic {
+  text-align: center;
+  margin: 30px;
+}
+
+#three {
+  margin: 30px;
+}
+#three .box-1 {
+  width: 100%;
+}
+#three .box-3 {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+#three .box-3 .box-2 {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#three .box-3 .box-2 h3 {
+  color: red;
+}
+
+#four {
+  margin: 50px;
+}
+#four .box-3 {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+#four .box-3 .box-2 {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#four .box-3 .box-2 h3 {
+  color: red;
+}
+#four .network {
+  width: 100%;
+}
+
+#five {
+  margin: 30px;
+  padding: 30px;
+}
+#five .Video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#five .video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/video-img.jpg);
+  width: 800px;
+  height: 500px;
+  background-size: cover;
+}
+#five .icons {
+  color: blueviolet;
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+#sevin {
+  margin: 10px;
+}
+#sevin .cool {
+  margin: 20px auto;
+  text-align: center;
+}
+#sevin .box4 {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  height: 160px;
+  padding: 10px 15px;
+  margin: 10px;
+  transition: 0.5s;
+}
+#sevin .box4:hover {
+  filter: blur(0);
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sevin .box4 .feature {
+  width: 50%;
+}
+#sevin .box4 p {
+  padding: 5px;
+}
+
+#nine {
+  margin-top: 30px;
+}
+#nine .cool {
+  margin: 20px auto;
+  text-align: center;
+  transition: 0.5s;
+}
+#nine .box-4 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px 10px;
+  transition: 0.5s;
+  padding: 10px;
+}
+#nine .box-4:hover {
+  filter: blur(0);
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#nine .box-4 .screen {
+  width: 100%;
+}
+
+#ten {
+  margin: 20px 10px;
+}
+#ten .box-5 {
+  margin: 20px auto;
+  text-align: center;
+}
+#ten .box-6 {
+  background-image: url(./img/price-bg-2.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+}
+#ten button {
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid blue;
+  transition: 0.5s;
+}
+#ten button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(0, 149, 255);
+}
+
+#eleven .box6 {
+   width: 300px;
+   margin: 10px auto;
+  box-shadow: rgba(65, 64, 64, 0.24) 0px 2px 6px;
+}
+#eleven .box6 .team {
+  margin-bottom: 10px;
+  width: 100%;
+}
+#eleven .box-7 {
+  padding: 30px 20px;
+  box-shadow: rgba(26, 25, 25, 0.286) 0px 3px 8px;
+}
+#eleven .box-7 .Ronald {
+  color: rgb(35, 35, 110);
+}
+
+#twelve .and {
+  font-weight: 700;
+}
+#twelve .box7 {
+  box-shadow: rgba(27, 26, 26, 0.24) 0px 3px 8px;
+  padding: 20px 10px;
+  margin: 10px 5px;
+  background-color: rgb(246, 237, 237);
+}
+#twelve .box7 .twelve {
+  font-style: 25px;
+  font-weight: 700;
+}
+
+#thirteen .box-8 .download {
+  width: 100%;
+}
+#thirteen .box-8 .box8 {
+  display: flex;
+}
+#thirteen .box-8 .box8button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 30px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+  border-radius: 40px;
+  transition: 0.5s;
+  margin-top: 15px;
+}
+#thirteen .box-8 .box8button p {
+  margin: 0px;
+}
+#thirteen .box-8 .box8button .box8p {
+  font-size: 20px;
+  font-weight: 500;
+}
+#thirteen .box-8 .box8button .iconbox8 {
+  margin: 5px;
+  padding: 5px;
+}
+#thirteen .box-8 .box8button:hover {
+  box-shadow: rgb(15, 16, 18) 0px 3px 8px, rgba(13, 13, 15, 0.856) 0px 3px 18px, rgba(44, 45, 48, 0.836) 0px 3px 28px, rgba(47, 48, 50, 0.801) 0px 3px 38px, rgb(51, 51, 52) 0px 3px 48px, rgb(38, 40, 41) 0px 3px 58px, rgba(39, 39, 41, 0.808) 0px 3px 68px, rgba(51, 52, 54, 0.637) 0px 3px 78px;
+}
+
+#fourteen .map {
+  margin: 10px;
+  width: 100%;
+}
+
+#fifteen .box-9 {
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: rgba(26, 25, 25, 0.286) 0px 3px 8px;
+}
+#fifteen .box-9 .box-9p {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 650;
+}
+#fifteen .box-9 .blog {
+  width: 100%;
+}
+
+#sixteen {
+  margin: 20px 0;
+}
+#sixteen .box-10 {
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgb(209, 204, 204);
+}
+#sixteen .Messages {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgb(209, 204, 204);
+}
+#sixteen .btn {
+  margin: 20px auto;
+  border: 1px solid blueviolet;
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: blueviolet;
+  transition: 0.5s;
+}
+#sixteen .btn:hover {
+  box-shadow: rgb(224, 144, 214) 0px 3px 8px, rgba(253, 128, 253, 0.856) 0px 3px 18px, rgb(224, 144, 214) 0px 3px 28px, rgb(209, 126, 198) 0px 3px 38px, rgb(233, 133, 220) 0px 3px 48px, rgb(224, 144, 214) 0px 3px 58px, rgb(226, 118, 211) 0px 3px 68px, rgb(208, 118, 196) 0px 3px 78px;
+  background-color: rgb(202, 32, 205);
+  color: white;
+}
+
+#seventeen {
+  padding: 20px;
+  background-color: rgb(230, 221, 221);
+}
+#seventeen p {
+  margin-top: 10px;
+}
+#seventeen .icons-end i {
+  margin: 10px 5px;
+  padding: 15px;
+  color: white;
+}
+#seventeen .icons-end .icon1 {
+  background-color: blue;
+  color: white;
+}
+#seventeen .icons-end .icon2 {
+  background-color: rgb(0, 217, 255);
+  color: white;
+}
+#seventeen .icons-end .icon3 {
+  background-color: red;
+}
+#seventeen .icons-end .icon4 {
+  background-color: rgb(165, 42, 50);
+}
+#seventeen .p-end {
+  font-size: 20px;
+  font-weight: 600;
+}
+#seventeen span {
+  font-weight: 800;
+}
+#seventeen .box-end {
+  margin-top: 10px;
+}
+#seventeen .box-end #email {
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid blueviolet;
+}
+
+/*# sourceMappingURL=style.css.map */
